@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mln_api_core
+    volumes:
+      - ./config:/app/config
+    image: mln_api_core
+    ports:
+      - 9091:9091
+    entrypoint:
+      [
+        "/app/wait-for.sh",
+        "postgres:5432",
+        "--",
+        "/app/start.sh"
+      ]
+    command: [ "/app/main" ]
+
+
+networks:
+  default:
+    name: postgres_network
+    external: true

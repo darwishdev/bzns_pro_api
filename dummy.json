@@ -1,0 +1,364 @@
+{
+    "permissions": [
+        {
+            "permissions": [
+                {
+                    "permission_id": 51,
+                    "permission_name": "create product",
+                    "permission_description": "Permission to create a product"
+                },
+                {
+                    "permission_id": 52,
+                    "permission_name": "update product",
+                    "permission_description": "Permission to update a product"
+                },
+                {
+                    "permission_id": 53,
+                    "permission_name": "list products",
+                    "permission_description": "Permission to list products"
+                },
+                {
+                    "permission_id": 54,
+                    "permission_name": "find product",
+                    "permission_description": "Permission to find a product"
+                },
+                {
+                    "permission_id": 55,
+                    "permission_name": "delete/restore product",
+                    "permission_description": "Permission to delete or restore a product"
+                }
+            ],
+            "permission_group": "products"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 46,
+                    "permission_name": "create modifier",
+                    "permission_description": "Permission to create a modifier"
+                },
+                {
+                    "permission_id": 47,
+                    "permission_name": "update modifier",
+                    "permission_description": "Permission to update a modifier"
+                },
+                {
+                    "permission_id": 48,
+                    "permission_name": "list modifiers",
+                    "permission_description": "Permission to list modifiers"
+                },
+                {
+                    "permission_id": 49,
+                    "permission_name": "find modifier",
+                    "permission_description": "Permission to find a modifier"
+                },
+                {
+                    "permission_id": 50,
+                    "permission_name": "delete/restore modifier",
+                    "permission_description": "Permission to delete or restore a modifier"
+                }
+            ],
+            "permission_group": "modifiers"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 39,
+                    "permission_name": "attach products to ingredient",
+                    "permission_description": "Permission to attach products to  ingredient"
+                },
+                {
+                    "permission_id": 40,
+                    "permission_name": "detach products from ingredient",
+                    "permission_description": "Permission to detach products from  ingredient"
+                },
+                {
+                    "permission_id": 41,
+                    "permission_name": "create ingredient",
+                    "permission_description": "Permission to create a ingredient"
+                },
+                {
+                    "permission_id": 42,
+                    "permission_name": "update ingredient",
+                    "permission_description": "Permission to update a ingredient"
+                },
+                {
+                    "permission_id": 43,
+                    "permission_name": "list ingredients",
+                    "permission_description": "Permission to list ingredients"
+                },
+                {
+                    "permission_id": 44,
+                    "permission_name": "find ingredient",
+                    "permission_description": "Permission to find a ingredient"
+                },
+                {
+                    "permission_id": 45,
+                    "permission_name": "delete/restore ingredient",
+                    "permission_description": "Permission to delete or restore a ingredient"
+                }
+            ],
+            "permission_group": "ingredients"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 18,
+                    "permission_name": "create hall",
+                    "permission_description": "Permission to create a hall"
+                },
+                {
+                    "permission_id": 19,
+                    "permission_name": "update hall",
+                    "permission_description": "Permission to update a hall"
+                },
+                {
+                    "permission_id": 20,
+                    "permission_name": "list halls",
+                    "permission_description": "Permission to list halls"
+                },
+                {
+                    "permission_id": 21,
+                    "permission_name": "find hall",
+                    "permission_description": "Permission to find a hall"
+                },
+                {
+                    "permission_id": 22,
+                    "permission_name": "delete/restore hall",
+                    "permission_description": "Permission to delete or restore a hall"
+                }
+            ],
+            "permission_group": "halls"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 23,
+                    "permission_name": "create table",
+                    "permission_description": "Permission to create a table"
+                },
+                {
+                    "permission_id": 24,
+                    "permission_name": "update table",
+                    "permission_description": "Permission to update a table"
+                },
+                {
+                    "permission_id": 25,
+                    "permission_name": "list tables",
+                    "permission_description": "Permission to list tables"
+                },
+                {
+                    "permission_id": 26,
+                    "permission_name": "find table",
+                    "permission_description": "Permission to find a table"
+                },
+                {
+                    "permission_id": 27,
+                    "permission_name": "delete/restore table",
+                    "permission_description": "Permission to delete or restore a table"
+                }
+            ],
+            "permission_group": "tables"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 56,
+                    "permission_name": "create combo",
+                    "permission_description": "Permission to create a combo"
+                },
+                {
+                    "permission_id": 57,
+                    "permission_name": "update combo",
+                    "permission_description": "Permission to update a combo"
+                },
+                {
+                    "permission_id": 58,
+                    "permission_name": "list combos",
+                    "permission_description": "Permission to list combos"
+                },
+                {
+                    "permission_id": 59,
+                    "permission_name": "find combo",
+                    "permission_description": "Permission to find a combo"
+                },
+                {
+                    "permission_id": 60,
+                    "permission_name": "delete/restore combo",
+                    "permission_description": "Permission to delete or restore a combo"
+                }
+            ],
+            "permission_group": "combos"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 28,
+                    "permission_name": "create unit",
+                    "permission_description": "permission to create unit"
+                },
+                {
+                    "permission_id": 29,
+                    "permission_name": "update unit",
+                    "permission_description": "permission to update unit"
+                },
+                {
+                    "permission_id": 30,
+                    "permission_name": "bulk create unit",
+                    "permission_description": "permission to create multiple units"
+                },
+                {
+                    "permission_id": 31,
+                    "permission_name": "delete restore unit",
+                    "permission_description": "permission to delete restore unit"
+                },
+                {
+                    "permission_id": 32,
+                    "permission_name": "find unit",
+                    "permission_description": "permission to fin unit"
+                },
+                {
+                    "permission_id": 33,
+                    "permission_name": "list units",
+                    "permission_description": "permission to list units"
+                }
+            ],
+            "permission_group": "units"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 7,
+                    "permission_name": "create user",
+                    "permission_description": "Permission to create a user"
+                },
+                {
+                    "permission_id": 8,
+                    "permission_name": "update user",
+                    "permission_description": "Permission to update a user"
+                },
+                {
+                    "permission_id": 9,
+                    "permission_name": "list users",
+                    "permission_description": "Permission to list users"
+                },
+                {
+                    "permission_id": 10,
+                    "permission_name": "find user",
+                    "permission_description": "Permission to find a user"
+                },
+                {
+                    "permission_id": 11,
+                    "permission_name": "delete/restore user",
+                    "permission_description": "Permission to delete or restore a user"
+                },
+                {
+                    "permission_id": 12,
+                    "permission_name": "update user roles/permissions",
+                    "permission_description": "Permission to update user roles and permissions"
+                }
+            ],
+            "permission_group": "users"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 13,
+                    "permission_name": "create branch",
+                    "permission_description": "Permission to create a branch"
+                },
+                {
+                    "permission_id": 14,
+                    "permission_name": "update branch",
+                    "permission_description": "Permission to update a branch"
+                },
+                {
+                    "permission_id": 15,
+                    "permission_name": "list branches",
+                    "permission_description": "Permission to list branches"
+                },
+                {
+                    "permission_id": 16,
+                    "permission_name": "find branch",
+                    "permission_description": "Permission to find a branch"
+                },
+                {
+                    "permission_id": 17,
+                    "permission_name": "delete/restore branch",
+                    "permission_description": "Permission to delete or restore a branch"
+                }
+            ],
+            "permission_group": "branches"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 34,
+                    "permission_name": "create category",
+                    "permission_description": "Permission to create a category"
+                },
+                {
+                    "permission_id": 35,
+                    "permission_name": "update category",
+                    "permission_description": "Permission to update a category"
+                },
+                {
+                    "permission_id": 36,
+                    "permission_name": "list categories",
+                    "permission_description": "Permission to list categories"
+                },
+                {
+                    "permission_id": 37,
+                    "permission_name": "find category",
+                    "permission_description": "Permission to find a category"
+                },
+                {
+                    "permission_id": 38,
+                    "permission_name": "delete/restore category",
+                    "permission_description": "Permission to delete or restore a ingredient"
+                }
+            ],
+            "permission_group": "categories"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 2,
+                    "permission_name": "create role",
+                    "permission_description": "Permission to create a role"
+                },
+                {
+                    "permission_id": 3,
+                    "permission_name": "update role",
+                    "permission_description": "Permission to update a role"
+                },
+                {
+                    "permission_id": 4,
+                    "permission_name": "list roles",
+                    "permission_description": "Permission to list roles"
+                },
+                {
+                    "permission_id": 5,
+                    "permission_name": "find role",
+                    "permission_description": "Permission to find a role"
+                },
+                {
+                    "permission_id": 6,
+                    "permission_name": "delete/restore role",
+                    "permission_description": "Permission to delete or restore a role"
+                }
+            ],
+            "permission_group": "roles"
+        },
+        {
+            "permissions": [
+                {
+                    "permission_id": 1,
+                    "permission_name": "view dashboard",
+                    "permission_description": "permission to view the dashboard page inside backoffice application"
+                }
+            ],
+            "permission_group": "dashboard"
+        }
+    ]
+}
