@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meloneg/mln_rms_core/common/random"
+	"github.com/darwishdev/bzns_pro_api/common/random"
 	"github.com/stretchr/testify/require"
 )
 

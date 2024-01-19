@@ -1,4 +1,4 @@
-module github.com/meloneg/mln_rms_core
+module github.com/darwishdev/bzns_pro_api
 
 go 1.20
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/bufbuild/connect-go"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 )
 
 func (api *Api) EventCreate(ctx context.Context, req *connect.Request[rmsv1.EventCreateRequest]) (*connect.Response[rmsv1.EventCreateResponse], error) {

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/darwishdev/bzns_pro_api/config"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/meloneg/mln_rms_core/config"
 )
 
 var store Store

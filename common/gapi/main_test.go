@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	"github.com/meloneg/mln_rms_core/common/pb/bznspro/v1/rmsv1connect"
-	"github.com/meloneg/mln_rms_core/common/random"
-	"github.com/meloneg/mln_rms_core/config"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	"github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1/rmsv1connect"
+	"github.com/darwishdev/bzns_pro_api/common/random"
+	"github.com/darwishdev/bzns_pro_api/config"
 )
 
 func newTestApi(t *testing.T, store db.Store) rmsv1connect.RmsCoreServiceHandler {

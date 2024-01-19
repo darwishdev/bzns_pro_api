@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/bufbuild/connect-go"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
 )
 
 func (s *AccountsUsecase) AccountsList(ctx context.Context, req *rmsv1.AccountsListRequest) (*rmsv1.AccountsListResponse, error) {

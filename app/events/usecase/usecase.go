@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/bufbuild/protovalidate-go"
-	"github.com/meloneg/mln_rms_core/app/events/adapter"
-	"github.com/meloneg/mln_rms_core/app/events/repo"
-	"github.com/meloneg/mln_rms_core/common/auth"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	"github.com/darwishdev/bzns_pro_api/app/events/adapter"
+	"github.com/darwishdev/bzns_pro_api/app/events/repo"
+	"github.com/darwishdev/bzns_pro_api/common/auth"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 )
 
 type EventsUsecaseInterface interface {

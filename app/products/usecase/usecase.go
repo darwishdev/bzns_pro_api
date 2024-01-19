@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/bufbuild/protovalidate-go"
-	"github.com/meloneg/mln_rms_core/app/products/adapter"
-	"github.com/meloneg/mln_rms_core/app/products/repo"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
+	"github.com/darwishdev/bzns_pro_api/app/products/adapter"
+	"github.com/darwishdev/bzns_pro_api/app/products/repo"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
 )
 
 type ProductsUsecaseInterface interface {

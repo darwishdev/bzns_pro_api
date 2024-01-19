@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/bufbuild/protovalidate-go"
-	"github.com/meloneg/mln_rms_core/app/orders/adapter"
-	"github.com/meloneg/mln_rms_core/app/orders/repo"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
+	"github.com/darwishdev/bzns_pro_api/app/orders/adapter"
+	"github.com/darwishdev/bzns_pro_api/app/orders/repo"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 )
 
 type OrdersUsecaseInterface interface {

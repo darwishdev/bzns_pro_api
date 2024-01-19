@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/darwishdev/bzns_pro_api/common/random"
 	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/meloneg/mln_rms_core/common/random"
 )
 
 type roleCreateTXTest struct {

@@ -2,17 +2,8 @@
 SELECT
         user_id,
         user_name,
-<<<<<<< HEAD
-         
-=======
-        account_id,
-        entity_id,
-        session_id,
-        device_id,
->>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
         user_image,
-        account_code,
-        user_email,
+         user_email,
         user_phone,
         user_password,
         created_at,
@@ -24,11 +15,7 @@ SELECT
         accounts_schema.users_view
     WHERE
         user_email = $1
-<<<<<<< HEAD
-        OR user_phone = $1) user_row;
-=======
-        OR account_code = $1;
->>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
+        OR user_phone = $1  ;
 
 -- name: UserPermissionsList :many
 SELECT
@@ -46,12 +33,6 @@ FROM (
         user_name,
         user_image,
         user_email,
-<<<<<<< HEAD
-=======
-        account_id,
-        entity_id,
-        session_id,
->>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
         user_phone,
         user_password,
         created_at,

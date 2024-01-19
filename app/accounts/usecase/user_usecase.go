@@ -5,12 +5,12 @@ import (
 	"strings"
 
 	"github.com/bufbuild/connect-go"
-	"github.com/meloneg/mln_rms_core/common/auth"
+	"github.com/darwishdev/bzns_pro_api/common/auth"
 <<<<<<< HEAD
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 =======
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 	"github.com/rs/zerolog/log"
 >>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
 )

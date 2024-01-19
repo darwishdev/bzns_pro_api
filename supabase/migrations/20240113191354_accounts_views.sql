@@ -20,15 +20,11 @@ permissionsgroups AS (
 SELECT 
   u.user_id, 
   user_name, 
-  account_code, 
-  coalesce(a.account_id,0) account_id,
-  coalesce(a.entity_id, 0) entity_id,
-  account_name, 
-  user_image, 
+   
+    
+   user_image, 
   user_email, 
-  user_phone, 
-  coalesce(session_id , 0) session_id,
-  coalesce(s.device_id , 0) device_id,
+  user_phone,  
   user_password, 
   u.created_at, 
   u.updated_at, 
@@ -64,21 +60,12 @@ SELECT
 FROM 
   accounts_schema.users u 
   JOIN userpermissions up ON u.user_id = up.user_id 
-  LEFT JOIN accounts_schema.accounts a ON user_email = a.account_email 
-  AND account_type_id = 3 
-  LEFT JOIN sessions_schema.sessions s ON a.account_id = s.created_by and  s.closed_at is null
-GROUP BY 
+  GROUP BY 
   u.user_id, 
   user_name, 
-  s.session_id,
-  s.device_id,
-  user_image, 
+    user_image, 
   user_email, 
-  a.account_id,
-  a.entity_id,
-  user_phone, 
-  account_code, 
-  account_name, 
+   user_phone, 
   user_password, 
   u.created_at, 
   u.updated_at, 
@@ -88,16 +75,13 @@ GROUP BY
 select
 ur.user_id,
 ur.user_name,
-ur.account_code,
-ur.account_name,
-ur.account_id,
-ur.device_id,
-ur.entity_id,
-ur.user_image,
+ 
+ 
+ 
+ ur.user_image,
 ur.user_email,
 ur.user_phone,
-ur.session_id,
-ur.user_password,
+ ur.user_password,
 ur.created_at,
 ur.updated_at,
 ur.permissions,

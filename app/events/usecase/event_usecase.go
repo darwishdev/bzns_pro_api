@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/bufbuild/connect-go"
-	"github.com/meloneg/mln_rms_core/common/auth"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	"github.com/darwishdev/bzns_pro_api/common/auth"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 )
 
 func (u *EventsUsecase) EventCreate(ctx context.Context, req *rmsv1.EventCreateRequest) (*rmsv1.EventCreateResponse, error) {

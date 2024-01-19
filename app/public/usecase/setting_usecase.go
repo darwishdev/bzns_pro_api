@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/bufbuild/connect-go"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 )
 
 func (s *PublicUsecase) SettingsUpdate(ctx context.Context, req *rmsv1.SettingsUpdateRequest) error {

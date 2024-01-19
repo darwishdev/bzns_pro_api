@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 	"github.com/jackc/pgx/v5/pgtype"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

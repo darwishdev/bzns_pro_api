@@ -13,13 +13,8 @@ test:
 	go test  -v -race  -cover ./... 
 
 seed: 
-<<<<<<< HEAD
 	curl -X POST ${SEEDER_URL}/storage/storage && curl -X POST ${SEEDER_URL}/accounts/settings && curl -X POST ${SEEDER_URL}/accounts/permissions && curl -X POST ${SEEDER_URL}/accounts/roles && curl -X POST ${SEEDER_URL}/accounts/users && curl -X POST ${SEEDER_URL}/accounts/navigations   
  
-=======
-	    curl -X POST ${SEEDER_URL}/places  &&  curl -X POST ${SEEDER_URL}/storage  && curl -X POST ${SEEDER_URL}/entities/entities && curl -X POST ${SEEDER_URL}/entities/halls && curl -X POST ${SEEDER_URL}/accounts/permissions && curl -X POST ${SEEDER_URL}/accounts/roles && curl -X POST ${SEEDER_URL}/accounts/accounts && curl -X POST ${SEEDER_URL}/accounts/users && curl -X POST ${SEEDER_URL}/accounts/navigations && curl -X POST ${SEEDER_URL}/products/units && curl -X POST ${SEEDER_URL}/products/categories && curl -X POST ${SEEDER_URL}/products/products && curl -X POST ${SEEDER_URL}/products/ingredients && curl -X POST ${SEEDER_URL}/products/modifiers && curl -X POST ${SEEDER_URL}/entities/settings && curl -X POST ${SEEDER_URL}/devices/devices && curl -X POST ${SEEDER_URL}/devices/settings  && curl -X POST ${SEEDER_URL}/entities/settings
-
->>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
 seed_t:
 	curl -X POST http://192.168.1.40:3000/users -d '{"test":true}' -H "Content-Type: application/json"
 	
@@ -52,7 +47,7 @@ run:
 
 
 mock:
-	mockgen -package mockdb -destination common/db/mock/store.go github.com/meloneg/mln_rms_core/common/db/gen Store
+	mockgen -package mockdb -destination common/db/mock/store.go github.com/darwishdev/bzns_pro_api/common/db/gen Store
 sqlc :
 	rm -rf common/db/gen/*.sql.go && sqlc generate
 
@@ -80,18 +75,11 @@ dpush:
 	docker push  exploremelon/mln_api_core:${v}
  
 
-<<<<<<< HEAD
 	docker push exploremelon/mln_api_core:
 
-=======
->>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
 run_bg:
 	make run  > /dev/null 2>&1 & && disown
 
 
 gen:
-<<<<<<< HEAD
 	rm -rf lib/pb/*  && protoc -I=proto/mln_api_protos --dart_out=grpc:lib/pb proto/mln_api_protos/bznspro/v1/*.proto proto/mln_api_protos/bznspro/v1/*/*.proto  proto/mln_api_protos/google/protobuf/*.proto
-=======
-	rm -rf lib/pb/*  && protoc -I=proto/mln_api_protos --dart_out=grpc:lib/pb proto/mln_api_protos/rms/v1/*.proto proto/mln_api_protos/rms/v1/*/*.proto  proto/mln_api_protos/google/protobuf/*.proto
->>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212

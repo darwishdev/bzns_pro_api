@@ -12,14 +12,14 @@ import (
 	"github.com/bufbuild/connect-go"
 	grpchealth "github.com/bufbuild/connect-grpchealth-go"
 	grpcreflect "github.com/bufbuild/connect-grpcreflect-go"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
 <<<<<<< HEAD
-	"github.com/meloneg/mln_rms_core/common/pb/bznspro/v1/bznsprov1connect"
+	"github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1/bznsprov1connect"
 =======
-	"github.com/meloneg/mln_rms_core/common/pb/rms/v1/rmsv1connect"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
+	"github.com/darwishdev/bzns_pro_api/common/pb/rms/v1/rmsv1connect"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 >>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
-	"github.com/meloneg/mln_rms_core/config"
+	"github.com/darwishdev/bzns_pro_api/config"
 	"github.com/rs/cors"
 	"github.com/rs/zerolog/log"
 	"golang.org/x/net/http2"

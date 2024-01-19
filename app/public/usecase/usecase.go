@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/bufbuild/protovalidate-go"
-	"github.com/meloneg/mln_rms_core/app/public/adapter"
-	"github.com/meloneg/mln_rms_core/app/public/repo"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	"github.com/darwishdev/bzns_pro_api/app/public/adapter"
+	"github.com/darwishdev/bzns_pro_api/app/public/repo"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 )
 
 type PublicUsecaseInterface interface {

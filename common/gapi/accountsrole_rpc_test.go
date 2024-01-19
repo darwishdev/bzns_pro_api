@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/bufbuild/connect-go"
+	"github.com/darwishdev/bzns_pro_api/common/convertor"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	mockdb "github.com/darwishdev/bzns_pro_api/common/db/mock"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
+	"github.com/darwishdev/bzns_pro_api/common/random"
 	"github.com/golang/mock/gomock"
-	"github.com/meloneg/mln_rms_core/common/convertor"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	mockdb "github.com/meloneg/mln_rms_core/common/db/mock"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
-	"github.com/meloneg/mln_rms_core/common/random"
 )
 
 type roleCreateTest struct {

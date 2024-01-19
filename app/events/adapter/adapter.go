@@ -1,8 +1,8 @@
 package adapter
 
 import (
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 )
 
 type EventsAdapterInterface interface {

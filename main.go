@@ -6,10 +6,10 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	"github.com/meloneg/mln_rms_core/common/gapi"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
-	"github.com/meloneg/mln_rms_core/config"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	"github.com/darwishdev/bzns_pro_api/common/gapi"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
+	"github.com/darwishdev/bzns_pro_api/config"
 	"github.com/rs/zerolog"
 )
 

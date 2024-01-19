@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
 )
 
 func (u *ProductsUsecase) ModifiersList(ctx context.Context, req *rmsv1.ModifiersListRequest) (*rmsv1.ModifiersListResponse, error) {

@@ -20,10 +20,10 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/darwishdev/bzns_pro_api/common/auth"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 	"github.com/iancoleman/strcase"
-	"github.com/meloneg/mln_rms_core/common/auth"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
 	"github.com/rs/zerolog/log"
 	"github.com/tangzero/inflector"
 )

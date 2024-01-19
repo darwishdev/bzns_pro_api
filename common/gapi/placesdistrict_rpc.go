@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/bufbuild/connect-go"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
 )
 
 func (api *Api) DistrictCreate(ctx context.Context, req *connect.Request[rmsv1.DistrictCreateRequest]) (*connect.Response[rmsv1.DistrictCreateResponse], error) {

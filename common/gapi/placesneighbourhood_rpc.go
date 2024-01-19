@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/bufbuild/connect-go"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
 )
 
 func (api *Api) NeighbourhoodCreate(ctx context.Context, req *connect.Request[rmsv1.NeighbourhoodCreateRequest]) (*connect.Response[rmsv1.NeighbourhoodCreateResponse], error) {

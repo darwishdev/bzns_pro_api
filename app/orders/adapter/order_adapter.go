@@ -3,9 +3,9 @@ package adapter
 import (
 	"encoding/json"
 
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 	"github.com/rs/zerolog/log"
 )
 

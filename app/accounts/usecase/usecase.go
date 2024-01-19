@@ -5,15 +5,15 @@ import (
 	"time"
 
 	"github.com/bufbuild/protovalidate-go"
-	"github.com/meloneg/mln_rms_core/app/accounts/adapter"
-	"github.com/meloneg/mln_rms_core/app/accounts/repo"
-	"github.com/meloneg/mln_rms_core/common/auth"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
+	"github.com/darwishdev/bzns_pro_api/app/accounts/adapter"
+	"github.com/darwishdev/bzns_pro_api/app/accounts/repo"
+	"github.com/darwishdev/bzns_pro_api/common/auth"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
 <<<<<<< HEAD
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 =======
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 >>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
 )
 

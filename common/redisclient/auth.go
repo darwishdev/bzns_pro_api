@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
 )
 
 type AuthSession struct {

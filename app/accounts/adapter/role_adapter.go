@@ -5,9 +5,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/meloneg/mln_rms_core/common/convertor"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	"github.com/darwishdev/bzns_pro_api/common/convertor"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 )
 
 // func parsePermission(res []byte, resultch chan *rmsv1.PermissionGroup, wg *sync.WaitGroup) {

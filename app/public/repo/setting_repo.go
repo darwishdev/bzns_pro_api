@@ -3,7 +3,7 @@ package repo
 import (
 	"context"
 
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
 )
 
 func (repo *PublicRepo) SettingsUpdate(ctx context.Context, req *db.SettingsUpdateParams) error {

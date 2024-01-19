@@ -7,11 +7,11 @@ import (
 <<<<<<< HEAD
 	"github.com/google/uuid"
 	"github.com/iancoleman/strcase"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/bznspro/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1"
 	"github.com/rs/zerolog/log"
 	"github.com/tangzero/inflector"
 =======
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
 
 	"github.com/google/uuid"
 >>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212

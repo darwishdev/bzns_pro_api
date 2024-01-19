@@ -2,20 +2,20 @@ package gapi
 
 import (
 	"github.com/bufbuild/protovalidate-go"
-	accountsUsecase "github.com/meloneg/mln_rms_core/app/accounts/usecase"
-	eventsUsecase "github.com/meloneg/mln_rms_core/app/events/usecase"
+	accountsUsecase "github.com/darwishdev/bzns_pro_api/app/accounts/usecase"
+	eventsUsecase "github.com/darwishdev/bzns_pro_api/app/events/usecase"
 
-	publicUsecase "github.com/meloneg/mln_rms_core/app/public/usecase"
-	"github.com/meloneg/mln_rms_core/common/auth"
-	db "github.com/meloneg/mln_rms_core/common/db/gen"
+	publicUsecase "github.com/darwishdev/bzns_pro_api/app/public/usecase"
+	"github.com/darwishdev/bzns_pro_api/common/auth"
+	db "github.com/darwishdev/bzns_pro_api/common/db/gen"
 <<<<<<< HEAD
-	"github.com/meloneg/mln_rms_core/common/pb/bznspro/v1/bznsprov1connect"
+	"github.com/darwishdev/bzns_pro_api/common/pb/bznspro/v1/bznsprov1connect"
 
 =======
-	"github.com/meloneg/mln_rms_core/common/pb/rms/v1/rmsv1connect"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
+	"github.com/darwishdev/bzns_pro_api/common/pb/rms/v1/rmsv1connect"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 >>>>>>> 11dce109f0ac477a16b39aab62601d26ece07212
-	"github.com/meloneg/mln_rms_core/config"
+	"github.com/darwishdev/bzns_pro_api/config"
 )
 
 // Server serves gRPC requests for our banking usecase.

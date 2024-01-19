@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/meloneg/mln_rms_core/common/pb
+    default: github.com/darwishdev/bzns_pro_api/common/pb
     except:
       - buf.build/bufbuild/protovalidate
 

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/bufbuild/connect-go"
-	rmsv1 "github.com/meloneg/mln_rms_core/common/pb/rms/v1"
-	"github.com/meloneg/mln_rms_core/common/redisclient"
+	rmsv1 "github.com/darwishdev/bzns_pro_api/common/pb/rms/v1"
+	"github.com/darwishdev/bzns_pro_api/common/redisclient"
 )
 
 func (u *OrdersUsecase) OrderCreate(ctx context.Context, req *rmsv1.OrderCreateRequest, authSession *redisclient.AuthSession) (*rmsv1.OrderCreateResponse, error) {
